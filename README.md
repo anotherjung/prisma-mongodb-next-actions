@@ -48,3 +48,4 @@ npx ts-node --compiler-options {\"module\":\"CommonJS\"} prisma/delete.ts
 ## updating schema
 
 npx prisma db push && npx prisma generate
+
