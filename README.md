@@ -35,6 +35,10 @@ package.json
   "prisma": {
     "seed": "ts-node --compiler-options {\"module\":\"CommonJS\"} prisma/seed.ts"
   },
+  "scripts" {
+    "postinstall": "prisma generate"
+  }
+  ...
 ```
 
 npx prisma db seed
